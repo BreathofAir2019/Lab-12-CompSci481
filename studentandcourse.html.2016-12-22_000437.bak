@@ -1,0 +1,25 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+<form action="/studentlookuphandler" method="post">
+<select name ="name">
+{% for s in student%}	
+	<option>{{s.name}}</option>
+{% endfor %}
+</select>
+<input value="submit" type="submit">
+<ul>
+{% for i in c%}
+	<li>{{i.name}}</li>
+{%endfor%}
+</ul>
+
+</form>
+
+<a href="/">Home</a>
+
+</body>
+</html>

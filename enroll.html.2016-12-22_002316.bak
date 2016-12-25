@@ -1,0 +1,27 @@
+<html>
+<body>
+
+
+<form action="/enrollhandler" method="post">
+<select name ="name">
+{% for s in student%}	
+	<option>{{s.name}}</option>
+{% endfor %}
+
+</select>
+</br>
+
+<select name="course">
+{% for c in course%}	
+	<option>{{c.name}}</option>
+{% endfor %}
+</select>
+
+
+<input value="Enroll" type="submit">
+</form>
+
+<a href="/">Home</a>
+
+</body>
+</html>

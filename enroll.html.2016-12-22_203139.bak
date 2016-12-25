@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Associate Influence with Person</title>
+body{
+	text-align: center;
+	background-color: orange;
+}
+</style>
+</head>
+<body>
+
+
+<form action="/enrollhandler" method="post">
+<select name ="name">
+{% for s in student%}	
+	<option>{{s.name}}</option>
+{% endfor %}
+
+</select>
+</br>
+
+<select name="course">
+{% for c in course%}	
+	<option>{{c.name}}</option>
+{% endfor %}
+</select>
+
+
+<input value="Associate" type="submit">
+</form>
+
+<a href="/">Home</a>
+
+</body>
+</html>

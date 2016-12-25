@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Associate Person with Influences</title>
+body{
+	text-align: center;
+	background-color: orange;
+}
+</style>
+</head>
+<body>
+
+<form action="/studentlookuphandler" method="post">
+<select name ="name">
+{% for s in student%}	
+	<option>{{s.name}}</option>
+{% endfor %}
+</select>
+<input value="submit" type="submit">
+<ul>
+{% for i in c%}
+	<li>{{i.name}}</li>
+{%endfor%}
+</ul>
+
+</form>
+
+<a href="/">Home</a>
+
+</body>
+</html>

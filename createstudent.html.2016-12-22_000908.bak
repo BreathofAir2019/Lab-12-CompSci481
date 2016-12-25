@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Note the Person</title>
+</head>
+<body>
+
+
+<form action="/studenthandler" method="post">
+Name: <input name="name" type="text"/>
+<input value="submit" type="submit">
+</form>
+{{message}}
+<a href="/">Home</a>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Note Influence</title>
+<style>
+body{
+	text-align: center;
+	background-color:purple;
+}
+</style>
+</head>
+<head>
+<title>Note the Influence Tactics</title>
+</head>
+<body>
+
+
+<form action="/courseHandler" method="post">
+Influence Tactic: <input name="name" type="text"/>
+<input value="submit" type="submit">
+</form>
+
+<a href="/">Home</a>
+
+</body>
+</html>

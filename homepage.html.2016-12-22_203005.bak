@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Note Influences</title>
+<style>
+body{
+	text-align: center;
+	background-color: green;
+}
+</style>
+</head>
+<body>
+<a href="/studenthandler">Enter Person</a></br>
+<a href="/courseHandler">Enter Influence Methos</a></br>
+<a href="/enrollhandler">Associate Person to influence</a></br>
+<a href="/studentlookuphandler"></a>Lookup Study Subject</br>
+<a href="/courselookupHandler">Search Methodology</a></br>
+</body>
+</html>

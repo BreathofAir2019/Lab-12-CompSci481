@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Choose  a Person to Study</title>
+<style>
+body{
+	text-align: center;
+	background-color: orange;
+	background-image:  https://36.media.tumblr.com/2bf1519ac6f92a0cbdb1006d6f634f7d/tumblr_inline_nldsceOcvJ1s5ascf_500.png;
+	background-repeat: repeat-y;
+}
+</style>
+</head>
+<head>
+<title>Note the Person</title>
+</head> 
+<body>
+
+
+<form action="/studenthandler" method="post">
+Name: <input name="name" type="text"/>
+<input value="submit" type="submit">
+</form>
+{{message}}
+<a href="/">Home</a>
+
+</body>
+</html>

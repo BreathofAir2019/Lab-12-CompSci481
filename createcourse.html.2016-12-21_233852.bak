@@ -1,0 +1,13 @@
+<html>
+<body>
+
+
+<form action="/courseHandler" method="post">
+Course name: <input name="name" type="text"/>
+<input value="submit" type="submit">
+</form>
+
+<a href="/">Home</a>
+
+</body>
+</html>
